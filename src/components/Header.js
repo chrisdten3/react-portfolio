@@ -14,7 +14,7 @@ const Header = () => {
             <li className="btn"><a href="#projects">Projects</a></li>
             <li className="btn"><a href="#tools">Tools</a></li>
             <li className="button"><a href="mailto:cdt50@georgetown.edu">Contact Me <i className="fa-regular fa-paper-plane"></i></a></li>
-            <li className="button"><a href="/ChrisTengey_f24.pdf" download="ChrisTengey_Resume">Resume <i className="fa-solid fa-arrow-down-long"></i></a></li>
+            <li className="button"><a href="/ChrisTengeySummer24.pdf" download="ChrisTengey_Resume">Resume <i className="fa-solid fa-arrow-down-long"></i></a></li>
           </ul>
         </nav>
         <div className="header-text">
