@@ -6,6 +6,7 @@ import musicPlayer from '../images/musicPlayer.png';
 import dashboard from '../images/dashboard.png';
 import hoyamovies from '../images/hoyamovies.png';
 import hey from '../images/hey.png'
+import h2ai from '../images/h2Ai.png';
 
 const Projects = () => {
   return (
@@ -43,7 +44,12 @@ const Projects = () => {
             projectLink="https://github.com/chrisdten3/Hey---Medication-Assistant"
             projectDescription="An iOS medication administration app built with Swift utilizing SwiftUI, Foundation, and Combine Frameworks."
           />
-          {/* Add more projects here */}
+          <Project
+            imageSrc={h2ai}
+            projectName="Where2Next"
+            projectLink="https://github.com/CharlieA8/h2ai-testing"
+            projectDescription="A web app that uses RAG to provide specialized medical advice based on symptoms. Site then scrapes local doctors in the area."
+          />
         </div>
       </div>
     </div>
